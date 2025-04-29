@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+  /* this removes the blue highlight on click in mobile */
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1;
+  font-weight: 800;
+}
+
+body {
+  height: 100vh;
+  width: min(100%, 600px);
+  margin: 0 auto;
+  display: grid;
+  font-family: "Inter", sans-serif;
+  background-color: hsl(0, 0%, 97%);
+}
+
+/* this unstyles the react router Link component*/
+a {
+  color: unset;
+  text-decoration: none;
+}

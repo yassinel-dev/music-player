@@ -1,0 +1,75 @@
+.playlist {
+  background-color: hsl(0, 0%, 97%);
+  padding: 1rem;
+}
+
+.playlist-info {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+
+  position: relative;
+}
+
+.playlist-info .back-btn {
+  all: unset;
+  font-size: 1.5rem;
+  line-height: 1.25rem;
+  cursor: pointer;
+}
+
+.playlist-image {
+  width: min(13rem, 70vw);
+  height: min(13rem, 70vh);
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 0%, 0.75);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0) 0px 18px 36px -18px inset;
+}
+
+.playlist-image svg {
+  width: 60%;
+  height: 60%;
+  rotate: 15deg;
+  fill: #d5d4d0;
+}
+
+.playlist-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.playlist-description {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: hsl(220, 10%, 46%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5ch;
+}
+
+.playlist-description p {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.playlist-description p:first-of-type {
+  white-space: wrap;
+}
+
+.playlist-tracks {
+  padding: 0.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.playlist-tracks h2 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}

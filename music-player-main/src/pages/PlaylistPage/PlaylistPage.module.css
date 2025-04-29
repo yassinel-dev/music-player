@@ -1,0 +1,14 @@
+.playlists {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: hsl(0, 0%, 97%);
+  height: 100%;
+  margin-bottom: 3rem;
+}
+
+.playlists h1 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-align: center;
+  font-weight: 700;
+}
